@@ -14,6 +14,11 @@
 		9B70C05C211B595600A371A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B70C05A211B595600A371A0 /* LaunchScreen.storyboard */; };
 		9B70C067211B595600A371A0 /* Employment_Payroll_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70C066211B595600A371A0 /* Employment_Payroll_SystemTests.swift */; };
 		9B70C072211B595600A371A0 /* Employment_Payroll_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70C071211B595600A371A0 /* Employment_Payroll_SystemUITests.swift */; };
+		9B70C080211B64E000A371A0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B70C07F211B64E000A371A0 /* LoginController.swift */; };
+		9BAD3221211C9F390078540D /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD3220211C9F390078540D /* RegistrationController.swift */; };
+		9BAD3223211C9F610078540D /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAD3222211C9F610078540D /* SplashController.swift */; };
+		9BAD3225211CA2340078540D /* DNNews.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BAD3224211CA2340078540D /* DNNews.jpg */; };
+		9BAD322B211CD8680078540D /* IMAGEEEEEEE.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAD322A211CD8680078540D /* IMAGEEEEEEE.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		9B70C06D211B595600A371A0 /* Employment Payroll SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Employment Payroll SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B70C071211B595600A371A0 /* Employment_Payroll_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employment_Payroll_SystemUITests.swift; sourceTree = "<group>"; };
 		9B70C073211B595600A371A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B70C07F211B64E000A371A0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		9BAD3220211C9F390078540D /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		9BAD3222211C9F610078540D /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = SOURCE_ROOT; };
+		9BAD3224211CA2340078540D /* DNNews.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DNNews.jpg; sourceTree = "<group>"; };
+		9BAD322A211CD8680078540D /* IMAGEEEEEEE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMAGEEEEEEE.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,15 @@
 			children = (
 				9B70C051211B595400A371A0 /* AppDelegate.swift */,
 				9B70C053211B595400A371A0 /* ViewController.swift */,
+				9BAD322A211CD8680078540D /* IMAGEEEEEEE.png */,
+				9BAD3224211CA2340078540D /* DNNews.jpg */,
 				9B70C055211B595400A371A0 /* Main.storyboard */,
 				9B70C058211B595600A371A0 /* Assets.xcassets */,
 				9B70C05A211B595600A371A0 /* LaunchScreen.storyboard */,
 				9B70C05D211B595600A371A0 /* Info.plist */,
+				9B70C07F211B64E000A371A0 /* LoginController.swift */,
+				9BAD3220211C9F390078540D /* RegistrationController.swift */,
+				9BAD3222211C9F610078540D /* SplashController.swift */,
 			);
 			path = "Employment Payroll System";
 			sourceTree = "<group>";
@@ -229,9 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAD3225211CA2340078540D /* DNNews.jpg in Resources */,
 				9B70C05C211B595600A371A0 /* LaunchScreen.storyboard in Resources */,
 				9B70C059211B595600A371A0 /* Assets.xcassets in Resources */,
 				9B70C057211B595400A371A0 /* Main.storyboard in Resources */,
+				9BAD322B211CD8680078540D /* IMAGEEEEEEE.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B70C054211B595400A371A0 /* ViewController.swift in Sources */,
+				9B70C080211B64E000A371A0 /* LoginController.swift in Sources */,
+				9BAD3221211C9F390078540D /* RegistrationController.swift in Sources */,
 				9B70C052211B595400A371A0 /* AppDelegate.swift in Sources */,
+				9BAD3223211C9F610078540D /* SplashController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
